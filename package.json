@@ -1,7 +1,6 @@
 {
   "name": "food",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,23 +8,37 @@
   "author": "",
   "license": "ISC",
   "browserslist": [
-    "last 2 chrome versions",
-    "last 2 firefox versions",
-    "last 2 ios versions"
+    "> 1%"
   ],
   "devDependencies": {
-    "@babel/core": "^7.7.0",
-    "@babel/preset-env": "^7.7.1",
-    "autoprefixer": "^9.7.1",
-    "babel-loader": "^8.0.6",
-    "browser-sync": "^2.26.7",
+    "@babel/cli": "^7.23.0",
+    "@babel/core": "^7.23.3",
+    "@babel/preset-env": "^7.23.3",
+    "autoprefixer": "^10.4.16",
+    "babel-loader": "^8.3.0",
+    "browser-sync": "^2.23.7",
+    "core-js": "^3.33.2",
     "gulp": "^4.0.2",
     "gulp-clean-css": "^4.2.0",
-    "gulp-postcss": "^8.0.0",
+    "gulp-postcss": "^9.0.1",
     "gulp-sass": "^5.1.0",
+    "json-server": "^0.17.4",
     "sass": "^1.50.0",
-    "webpack": "^4.41.2",
-    "webpack-cli": "^3.3.10",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^4.15.1",
     "webpack-stream": "^5.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Galina-babayan/Food.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Galina-babayan/Food/issues"
+  },
+  "homepage": "https://github.com/Galina-babayan/Food#readme",
+  "description": "",
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1"
   }
 }
